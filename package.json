@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "@ai-sdk/anthropic": "^2.0.0",
-    "@ai-sdk/azure": "^1.1.5",
+    "@ai-sdk/azure": "^2.0.0",
     "@ai-sdk/deepseek": "^0.2.0",
     "@ai-sdk/fireworks": "^0.2.0",
     "@ai-sdk/google": "^1.1.5",
