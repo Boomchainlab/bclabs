@@ -1,5 +1,5 @@
 # Base image
-FROM oven/bun:1.2.19 AS builder
+FROM oven/bun:1.4.2 AS builder
 
 WORKDIR /app
 
@@ -13,7 +13,7 @@ RUN bun next telemetry disable
 RUN bun run build
 
 # Runtime stage
-FROM oven/bun:1.2.19 AS runner
+FROM oven/bun:1.4.2 AS runner
 WORKDIR /app
 
 # Copy only necessary files from builder
